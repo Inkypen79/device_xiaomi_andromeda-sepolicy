@@ -24,3 +24,6 @@ allow hal_motor_default mnt_vendor_file:file create_file_perms;
 # Allow hal_motor_default to create files in /mnt/vendor/persist/sensors/
 allow hal_motor_default vendor_persist_sensors_file:dir rw_dir_perms;
 allow hal_motor_default vendor_persist_sensors_file:file create_file_perms;
+
+# Allow hal_motor_default to communicate with xiaomiparts
+binder_call(hal_motor_default, xiaomiparts)
