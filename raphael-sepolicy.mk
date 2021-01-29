@@ -18,6 +18,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/battery \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/camera \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/fingerprint \
+    device/xiaomi/raphael-sepolicy/vendor/xiaomi/fod \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/light \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/motor \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/power \
