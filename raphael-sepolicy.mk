@@ -12,6 +12,10 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/nxp
 
+# Lineage Sepolicy
+BOARD_SEPOLICY_DIRS += \
+    device/xiaomi/raphael-sepolicy/vendor/lineage
+
 # Xiaomi Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/audio \
