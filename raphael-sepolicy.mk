@@ -25,6 +25,7 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/fod \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/light \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/motor \
+    device/xiaomi/raphael-sepolicy/vendor/xiaomi/mlipay \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/parts \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/power \
     device/xiaomi/raphael-sepolicy/vendor/xiaomi/thermald \
