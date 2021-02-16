@@ -1,7 +1,3 @@
-# Qcom Sepolicy
-#BOARD_SEPOLICY_DIRS += \
-#	device/xiaomi/raphael-sepolicy/vendor/qcom
-
 #BOARD_PLAT_PUBLIC_SEPOLICY_DIRS += \
 #    device/xiaomi/raphael-sepolicy/public
 
@@ -15,6 +11,10 @@ BOARD_SEPOLICY_DIRS += \
 # Lineage Sepolicy
 BOARD_SEPOLICY_DIRS += \
     device/xiaomi/raphael-sepolicy/vendor/lineage
+
+# Qcom Sepolicy
+BOARD_SEPOLICY_DIRS += \
+	device/xiaomi/raphael-sepolicy/vendor/qcom
 
 # Xiaomi Sepolicy
 BOARD_SEPOLICY_DIRS += \
