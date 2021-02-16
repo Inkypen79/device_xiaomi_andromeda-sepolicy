@@ -48,3 +48,10 @@ allow mi_thermald vendor_sysfs_kgsl:{
   file
   lnk_file
 } rw_file_perms;
+
+# Allow mi_thermald to access sysfs
+r_dir_file(mi_thermald, sysfs)
+allow mi_thermald sysfs:{
+  file
+  lnk_file
+} rw_file_perms;
