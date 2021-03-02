@@ -1,0 +1,1 @@
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/wireless/wakeup u:object_r:sysfs_wakeup:s0
