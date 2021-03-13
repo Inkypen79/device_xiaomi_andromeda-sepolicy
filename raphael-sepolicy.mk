@@ -1,7 +1,7 @@
 #BOARD_PLAT_PUBLIC_SEPOLICY_DIRS += \
 #    device/xiaomi/raphael-sepolicy/public
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIRS += \
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/xiaomi/raphael-sepolicy/private
 
 # NXP Sepolicy
