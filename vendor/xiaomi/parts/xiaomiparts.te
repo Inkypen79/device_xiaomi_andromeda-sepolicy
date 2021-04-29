@@ -13,9 +13,6 @@ allow xiaomiparts {
   mediaserver_service
 }:service_manager find;
 
-# Allow xiaomiparts to access motor hal
-hal_client_domain(xiaomiparts, hal_motor)
-
 # Allow xiaomiparts read and write /data/data subdirectory
 allow xiaomiparts system_app_data_file:dir create_dir_perms;
 allow xiaomiparts system_app_data_file:{ 
@@ -23,9 +20,8 @@ allow xiaomiparts system_app_data_file:{
   lnk_file
 } create_file_perms;
 
-# Allow binder communication with gpuservice/hal_motor
+# Allow binder communication with gpuservice
 binder_call(xiaomiparts, gpuservice)
-binder_call(xiaomiparts, hal_motor)
 
 # Allow xiaomiparts to read and write to cgroup/vendor_sysfs_graphics/sysfs_leds
 r_dir_file(xiaomiparts, sysfs_leds)
@@ -35,3 +31,7 @@ allow xiaomiparts {
   sysfs_leds
   vendor_sysfs_graphics
 }:file rw_file_perms;
+
+# Allow xiaomiparts access to slider properties
+get_prop(xiaomiparts, persist_slider_prop)
+set_prop(xiaomiparts, persist_slider_prop)

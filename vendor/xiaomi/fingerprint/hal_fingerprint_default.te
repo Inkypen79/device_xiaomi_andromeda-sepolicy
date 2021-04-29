@@ -31,3 +31,9 @@ get_prop(hal_fingerprint_default, vendor_adsprpc_prop)
 
 # Allow hal_fingerprint_default to add hal_xiaomi_fingerprint_hwservice
 add_hwservice(hal_fingerprint_default, hal_xiaomi_fingerprint_hwservice)
+
+#============= hal_fingerprint_default ==============
+allow hal_fingerprint_default properties_device:file { getattr map open read };
+allow hal_fingerprint_default vendor_sysfs_fingerprint:file { open read write };
+allow hal_fingerprint_default vendor_sysfs_spss:dir search;
+allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
