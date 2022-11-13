@@ -34,7 +34,6 @@ BOARD_SEPOLICY_DIRS += \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/mfidoca \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/misys \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/mlipay \
-    device/xiaomi/andromeda-sepolicy/vendor/xiaomi/modprobe \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/mtdservice \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/net \
     device/xiaomi/andromeda-sepolicy/vendor/xiaomi/parts \
